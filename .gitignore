@@ -53,3 +53,4 @@ jsoncpp_lib_static.dir/
 
 # DS_Store
 .DS_Store
+/jsoncpp.VC.db
