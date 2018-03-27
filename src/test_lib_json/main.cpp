@@ -11,8 +11,8 @@
 #endif
 
 #include "jsontest.h"
-#include <json/config.h>
-#include <json/json.h>
+#include <config.h>
+#include <json.h>
 #include <cstring>
 #include <limits>
 #include <sstream>
