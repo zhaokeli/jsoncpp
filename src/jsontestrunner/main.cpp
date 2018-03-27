@@ -327,14 +327,18 @@ int main(int argc, const char* argv[]) {
 		int exitCode = parseCommandLine(argc, argv, &opts);
 		if (exitCode != 0) {
 			printf("Failed to parse command-line.");
+			getchar();
 			return exitCode;
 		}
+		getchar();
 		return runTest(opts);
 	}
 	catch (const std::exception& e) {
 		printf("Unhandled exception:\n%s\n", e.what());
+		getchar();
 		return 1;
 	}
+
 }
 
 #if defined(__GNUC__)

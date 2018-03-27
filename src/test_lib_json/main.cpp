@@ -2657,7 +2657,7 @@ int main(int argc, const char* argv[]) {
 	JSONTEST_REGISTER_FIXTURE(runner, IteratorTest, const);
 
 	JSONTEST_REGISTER_FIXTURE(runner, RValueTest, moveConstruction);
-
+	getchar();
 	return runner.runCommandLine(argc, argv);
 }
 

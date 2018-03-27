@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib_json", "src\lib_json\lib_json.vcxproj", "{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsontest", "src\jsontestrunner\jsontest.vcxproj", "{25AF2DD2-D396-4668-B188-488C33B8E620}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E6C2C1C-6453-4129-AE3F-0EE8E6599C89} = {1E6C2C1C-6453-4129-AE3F-0EE8E6599C89}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_lib_json", "src\test_lib_json\test_lib_json.vcxproj", "{B7A96B78-2782-40D2-8F37-A2DEF2B9C26D}"
 EndProject
